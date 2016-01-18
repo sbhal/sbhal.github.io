@@ -1,21 +1,22 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: false
+#permalink:           pretty
+permalink:     '/blog/:year/:title/'
+#relative_permalinks: false
 
 # Setup
 title:               Siddharth Bhal
-tagline:             'MS in Computer Engineering at Virginia Tech'
-description:         'A masters student in Computer Engineering Dept of Virginia Tech. Spends time reading about IOT, Linux Kernel, Swimming .'
+tagline:             'Studying Masters in Computer Engineering at Virginia Tech'
+description:         'A masters student in Computer Engineering Dept of Virginia Tech. Spends time reading about IOT, Linux Kernel, Swimming.'
 url:                 http://sbhal.com
-baseurl:             ''
-paginate:            5
+baseurl:             http://sbhal.com
+paginate:            4
 
 # About/contact
 author:
   name:              Siddharth Bhal
-  url:               https://sbhal.com/
+  url:               https://sbhal.com
   email:             siddharth0bhal@gmail.com
 
 # Custom vars
@@ -23,9 +24,3 @@ version:             1.0.0
 
 # Required Gems
 gems: [jekyll-paginate, jekyll-gist]
-
-pages_list:
-  About: '/vr/about/'
-  Hobby projects: '/vr/hobbies/'
-  Tags: '/vr/tags/'
-  Feed: '/vr/atom.xml'
