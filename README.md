@@ -1,31 +1,21 @@
-# Lanyon
+# Updating Lanyon to latest
 
-Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
-
-![Lanyon](https://f.cloud.github.com/assets/98681/1825266/be03f014-71b0-11e3-9539-876e61530e24.png)
-![Lanyon with open sidebar](https://f.cloud.github.com/assets/98681/1825267/be04a914-71b0-11e3-966f-8afe9894c729.png)
-
-
-## Contents
-
-- [Usage](#usage)
-- [Options](#options)
-  - [Sidebar menu](#sidebar-menu)
-  - [Themes](#themes)
-  - [Reverse layout](#reverse-layout)
-- [Development](#development)
-- [Author](#author)
-- [License](#license)
+git remote add upstream https://github.com/poole/lanyon.git
+git fetch upstream
+git checkout master
+git rebase upstream/master
 
 
-## Usage
+# Jekyll Basic Usage
+$ jekyll build --destination ../site
+$ cd ../site
+$ jekyll serve
 
-Lanyon is a theme built on top of [Poole](https://github.com/poole/poole), which provides a fully furnished Jekyll setup—just download and start the Jekyll server. See [the Poole usage guidelines](https://github.com/poole/poole#usage) for how to install and use Jekyll.
+For jekyll > 3.0, changes in _config.yml
+relative_permalinks: false
+gems: [jekyll-paginate, jekyll-gist]
 
 
-## Options
-
-Lanyon includes some customizable options, typically applied via classes on the `<body>` element.
 
 
 ### Sidebar menu
