@@ -3,6 +3,7 @@ layout: post
 title: People Counter
 category: project
 tags: project blog
+comments: true
 ---
 
 ### Abstract

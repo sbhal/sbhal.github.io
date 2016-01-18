@@ -7,7 +7,7 @@ permalink:     '/blog/:year/:title/'
 
 # Setup
 title:               Siddharth Bhal
-tagline:             'Studying Masters in Computer Engineering at Virginia Tech'
+tagline:             'MS student at Virginia Tech'
 description:         'A masters student in Computer Engineering Dept of Virginia Tech. Spends time reading about IOT, Linux Kernel, Swimming.'
 url:                 http://sbhal.com
 baseurl:             http://sbhal.com
@@ -18,6 +18,13 @@ author:
   name:              Siddharth Bhal
   url:               https://sbhal.com
   email:             siddharth0bhal@gmail.com
+  gravatar_md5:      174a9d47e67300db8dc67d2844980b7c
+  github:	     sbhal
+  linkedin:          siddharthbhal
+  twitter:           keenbhal
+  disqus_shortname:  sbhal
+  google_analytics_id: UA-26469328-1
+
 
 # Custom vars
 version:             1.0.0
