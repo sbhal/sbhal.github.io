@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 cTime: 2023-10-06T17:57
-mTime: 2023-10-06T19:29
+mTime: 2023-10-06T19:41
 related: 
 share: "true"
 ---
@@ -12,7 +12,9 @@ share: "true"
 ## Breakfast
 Halwai arrangement?
 
-## 11:00 AM Haldi Aishwarya House Complex Oil, Haldi, Dahi, Doob, Kasore
+## 11:00 AM Haldi Aishwarya House Complex
+
+Oil, Haldi, Dahi, Doob, Kasore
 
 ## Go to Hostel Rooms. Take Bath
 
