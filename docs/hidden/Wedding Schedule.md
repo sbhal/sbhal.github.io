@@ -1,11 +1,13 @@
 ---
 aliases: 
-tags: 
+tags:
+  - published
 cTime: 2023-10-06T17:57
-mTime: 2023-10-06T19:41
+mTime: 2023-10-06T20:01
 related: 
 share: "true"
 ---
+
 
 # 9th December
 
